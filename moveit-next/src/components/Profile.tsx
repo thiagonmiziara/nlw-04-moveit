@@ -1,5 +1,5 @@
 import React from "react";
-import styles from '../styles/components/Profile.module.css';
+import styles from "../styles/components/Profile.module.css";
 
 const Profile = () => {
   return (
@@ -7,7 +7,11 @@ const Profile = () => {
       <img src="https://github.com/thiagonmiziara.png" alt="Foto Thiago" />
       <div>
         <strong>Thiago Miziara</strong>
-        <p>Level 01</p>
+
+        <p>
+          <img src="icons/level.svg" alt="Level" />
+          Level 01
+        </p>
       </div>
     </div>
   );
