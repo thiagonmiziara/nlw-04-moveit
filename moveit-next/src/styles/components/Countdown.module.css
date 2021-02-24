@@ -69,4 +69,5 @@
     background-color: var(--white);
     color: var(--text);
     cursor: not-allowed;
+    border-bottom: 4px solid var(--green);
 }

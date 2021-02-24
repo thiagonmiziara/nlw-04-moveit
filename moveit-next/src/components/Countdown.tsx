@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { isatty } from "tty";
 import styles from "../styles/components/Countdown.module.css";
 
 let countdownTimeout: NodeJS.Timeout;
@@ -53,6 +52,7 @@ const Countdown = () => {
       {hasFinished ? (
         <button disabled className={styles.countdownButton}>
           Ciclo encerrado
+          <img src="icons/check.svg" alt="icon isCorrect" style={{marginLeft:"10px"}}/>
         </button>
       ) : (
         <>
